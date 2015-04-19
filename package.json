@@ -1,0 +1,10 @@
+{
+  "name": "Milestone4",
+  "description": "chaos monkey implementation",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+       "http-proxy": "^1.9.0"
+  }
+
+}
