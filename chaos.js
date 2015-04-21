@@ -3,9 +3,11 @@ httpProxy = require('http-proxy'); //put in package.json
 //var Resilient = require('resilient') 
 
 var servers = [
-"http://localhost:5000",
-"http://localhost:5002",
-"http://localhost:5003"
+"http://52.5.5.40:5000",
+"http://52.5.136.185:5000",
+"http://52.5.243.226:5000",
+"http://52.5.81.233:5000",
+"http://52.1.222.51:5000"
 ]
 
 var chaos = [];
