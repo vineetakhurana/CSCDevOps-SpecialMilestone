@@ -1,3 +1,7 @@
 # CSCDevOps-SpecialMilestone
 
-### Special Milstone
+###Project Group Members :
+
+Vineeta Khurana (vkhuran2)
+
+Satvik Andi (sandi)
