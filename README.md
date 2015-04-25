@@ -21,6 +21,6 @@ The following are the features in the milestone:
 - The Chaos Monkey, is designed to bring down random instances at random intervals of time. 
 - The removeServer() function, implements chaos monkey and will remove a particular EC2 instance from the list of potential targets as per time interval.
 - The addServer() function is designed to arbitrarily add one of the instances removed by chaos monkey to be added back as a potential target.
-- This list is refreshed based on removed and added instances and hence the proxy will always have atleast 1 EC2 instance to use as a target. 
+- This list is refreshed based on removed and added instances and hence the proxy will always have atleast one EC2 instance to use as a target. 
 - There is an additional app listening on port 3002. This app shows the list of servers available as potential targets to the proxy along with timestamp. (3002_1to4 - vineeta)
 
