@@ -17,10 +17,13 @@ The following are the features in the milestone:
 - The 5 EC2 instances have the production app running on them.
 - The app running on the instances is: *'app.js'* . It is deployed similar to deployment scheme used in Milestone 3. 
     
-![ec2app_running] [ec2app_running]
+![ec2app_running] [ec2_apprunning]
 
 - Each of these 5 instances are equally potential targets in a list of targets for a proxy to choose from. 
-- There is a proxy on my local machine, listening at port 3000. This proxy selects one of the instances in a round-robin fashion, from the list of available instances i.e. potential targets at any given time. (appjs_onlocal - vineeta)
+- There is a proxy on my local machine, listening at port 3000. This proxy selects one of the instances in a round-robin fashion, from the list of available instances i.e. potential targets at any given time. 
+
+![appjs_onlocal] [appjs_onlocal]
+
 - The Chaos Monkey, is designed to bring down random instances at random intervals of time. 
 - The removeServer() function, implements chaos monkey and will remove a particular EC2 instance from the list of potential targets as per time interval.
 - The addServer() function is designed to arbitrarily add one of the instances removed by chaos monkey to be added back as a potential target.
@@ -38,7 +41,7 @@ The following are the features in the milestone:
 
 
 
-[ec2app_running]: /images/ec2app_running.PNG
+[ec2app_running]: /images/ec2_apprunning.PNG
 [appjs_onlocal]: /images/appjs_onlocal.PNG
 [3001_1]: /images/3001_1.PNG
 [3001_2]: /images/3001_2.PNG
