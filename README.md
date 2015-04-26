@@ -13,7 +13,10 @@ Satvik Andi (sandi)
 The special milestone introduces resilience testing via a chaos monkey. This is an add-on to the project deployed in Milestone 3. (https://github.com/satvikandi/Hello)
 
 The following are the features in the milestone:
-- 5 EC2 instances have been configured using AWS CloudFormation. (AWS snapshot - Satvik)
+- 5 EC2 instances have been configured using AWS CloudFormation. 
+
+![ec2_running_instances] [ec2_running_instances]
+
 - The 5 EC2 instances have the production app running on them.
 - The app running on the instances is: *'app.js'* . It is deployed similar to deployment scheme used in Milestone 3. 
     
@@ -40,7 +43,7 @@ The following are the features in the milestone:
 
 
 
-
+[ec2_running_instances]: /images/ec2_production_instances.PNG
 [ec2app_running]: /images/ec2_apprunning.PNG
 [appjs_onlocal]: /images/appjs_onlocal.PNG
 [3002_1]: /images/3002_1.PNG
