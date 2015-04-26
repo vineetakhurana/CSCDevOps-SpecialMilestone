@@ -6,7 +6,9 @@ Vineeta Khurana (vkhuran2)
 
 Satvik Andi (sandi)
 
-###Link to video: https://www.youtube.com/watch?v=f7ZKxcoXRsI
+###Link to video: 
+
+https://www.youtube.com/watch?v=f7ZKxcoXRsI
 
 ###Special Milestone:
 
